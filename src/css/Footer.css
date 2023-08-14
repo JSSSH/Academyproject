@@ -1,0 +1,12 @@
+.Footer > p {
+  margin: 5px;
+}
+
+.Footer {
+  border-top: 1px solid lightgray;
+  margin-top: 200px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: rgb(255, 231, 199);
+}

@@ -1,0 +1,14 @@
+.Header {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 100px;
+  background-color: rgb(255, 231, 199);
+}
+
+.nav_left {
+  display: flex;
+}
+
+.nav_right {
+  display: flex;
+}

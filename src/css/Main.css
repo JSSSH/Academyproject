@@ -1,0 +1,23 @@
+.first_text_box {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.Main {
+  margin: 40px;
+}
+
+.main_img {
+  justify-content: center;
+}
+
+.main_img > img {
+  width: 45%;
+  margin: 10px;
+  box-shadow: 5px 5px rgb(213, 214, 194)
+}
+
+.second_text_box {
+  margin-bottom: 100px;
+}

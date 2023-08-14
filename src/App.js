@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header';
+import Main from './components/Main';
+import Shop from './components/Shop';
+import Login from './components/Login';
+import Cart from './components/Cart';
+import Footer from './components/Footer';
+import { useState } from 'react';
 
 function App() {
+  const [product, setProduct] = useState([
+    
+  ]);
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+
+      <Routes>
+        <Route path='/' element={<Main />} />
+        <Route path='/shop' element={<Shop />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/cart' element={<Cart />} />
+
+        <Route path='*' element={<div>존재하지 않는 페이지</div>} />
+      </Routes>
+
+      <Footer />
     </div>
   );
 }
