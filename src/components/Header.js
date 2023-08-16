@@ -10,7 +10,7 @@ const Header = () => {
       <Navbar>
         <Container>
           <Navbar.Brand className="logoimg" href="/">
-            <img style={{cursor: "pointer"}} className="logo" src="img/logo.png" />
+            <img style={{cursor: "pointer"}} className="logo" src={`${process.env.PUBLIC_URL}/img/logo.png`} />
           </Navbar.Brand>
           <Nav className="me-auto">
             <div className="nav_left">

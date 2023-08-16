@@ -1,0 +1,22 @@
+.Detail {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 100px;
+}
+
+.imgBox {
+  padding: 50px;
+}
+
+.textBox {
+  font-weight: bold;
+  font-size: 40px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 50px;
+}
+
+.imgBox > img {
+  height: 600px;
+}

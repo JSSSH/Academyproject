@@ -1,6 +1,8 @@
+import '../css/Cart.css';
+
 const Cart = () => {
   return(
-    <div>
+    <div className="Cart">
       cart
     </div>
   );

@@ -5,7 +5,7 @@
 }
 
 .Main {
-  margin: 40px;
+  padding: 200px 50px;
 }
 
 .main_img {
@@ -13,7 +13,7 @@
 }
 
 .main_img > img {
-  width: 45%;
+  width: 48%;
   margin: 10px;
   box-shadow: 5px 5px rgb(213, 214, 194)
 }

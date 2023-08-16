@@ -1,8 +1,19 @@
 .Header {
-  display: flex;
+  position: fixed;
+  z-index :99;
+  top: 0;left: 0;
+  width: 100%;
   border-bottom: 1px solid lightgray;
-  margin-bottom: 100px;
-  background-color: rgb(255, 231, 199);
+  background-color: rgb(248, 237, 222);
+}
+
+.navbar > .container {
+  max-width: 100%;
+}
+
+.navbar-expand .navbar-nav {
+  width: 100%;
+  justify-content: space-between;
 }
 
 .nav_left {
