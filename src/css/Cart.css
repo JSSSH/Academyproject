@@ -1,3 +1,14 @@
 .Cart {
-  margin-top: 80px;
+  margin-top: 73px;
+}
+
+.Cart_btn {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background: rgb(167, 167, 167);
+  color: black;
+}
+
+.Cart_table {
+  --bs-table-bg: rgb(213, 214, 194);
 }

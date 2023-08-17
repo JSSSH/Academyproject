@@ -1,5 +1,5 @@
 .Detail {
-  margin-top: 80px;
+  margin-top: 73px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -19,4 +19,16 @@
 
 .imgBox > img {
   height: 600px;
+}
+
+.btn {
+  background: #fde403;
+}
+
+.btn:hover {
+  background: #d11620;
+}
+
+.Detail_price {
+  font-size: 20px;
 }

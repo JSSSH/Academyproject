@@ -9,17 +9,16 @@ const Main = () => {
           <p>We offer a variety of items that can fill up everyday life, focusing on ceramics.</p>
         </div>
         <div className="second_text_box">
-          <p>모누앤드는 오래도록 변하지 않는 가치를 개인의 공간에 전달하고자 합니다.</p>
+          <p>오래도록 변하지 않는 가치를 개인의 공간에 전달하고자 합니다.</p>
           <p>도자기를 중심으로 일상에 스며들 수 있는 다양한 아이템을 선보입니다.</p>
         </div>
       </div>
       <div className="main_img">
-        <img src='img/m1.png'/>
-        <img src='img/m2.png'/>
-        <img src='img/m3.png'/>
-        <img src='img/m4.png'/>
+        <img className='main_img1' src='img/m1.png'/>
+        <img className='main_img2' src='img/m2.png'/>
+        <img className='main_img3' src='img/m3.png'/>
+        <img className='main_img4' src='img/m4.png'/>
       </div>
-      
     </div>
   );
 }

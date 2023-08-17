@@ -9,8 +9,8 @@ const Header = () => {
     <div className="Header">
       <Navbar>
         <Container>
-          <Navbar.Brand className="logoimg" href="/">
-            <img style={{cursor: "pointer"}} className="logo" src={`${process.env.PUBLIC_URL}/img/logo.png`} />
+          <Navbar.Brand className="logoimg" onClick={() => {navigate('/')}}>
+            <img style={{cursor: "pointer"}} className="logo" width='100px' height='50px' src={`${process.env.PUBLIC_URL}/img/logo.png`} />
           </Navbar.Brand>
           <Nav className="me-auto">
             <div className="nav_left">

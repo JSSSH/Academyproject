@@ -10,7 +10,7 @@ const Card = ({ data }) => {
       }} style={{cursor: 'pointer'}}>
         <div><img src={`img/${data.name}.jpg`} width='100%' /></div><br />
         <div><h3>{data.title}</h3></div>
-        <div><h6>{data.price}</h6></div>
+        <div><h6>{data.price}원</h6></div>
       </div>
   );
 }

@@ -10,6 +10,8 @@
 
 .main_img {
   justify-content: center;
+  display: flex;
+  flex-wrap: wrap
 }
 
 .main_img > img {
