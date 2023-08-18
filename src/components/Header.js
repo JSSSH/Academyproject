@@ -18,6 +18,7 @@ const Header = () => {
               <Nav.Link onClick={() => {navigate('/shop')}}>Shop</Nav.Link>
             </div>
             <div className="nav_right">
+              <Nav.Link onClick={() => {navigate('/signup')}}>Sign up</Nav.Link>
               <Nav.Link onClick={() => {navigate('/login')}}>Login</Nav.Link>
               <Nav.Link onClick={() => {navigate('/cart')}}>Cart</Nav.Link>
             </div>

@@ -8,6 +8,7 @@ import Cart from './components/Cart';
 import Footer from './components/Footer';
 import { useState } from 'react';
 import Detail from './components/Detail';
+import SignUp from './components/SignUp';
 
 function App() {
   const [product, setProduct] = useState([
@@ -86,6 +87,7 @@ function App() {
         <Route path='/detail/:id' element={<Detail product={product}/>} />
         <Route path='/login' element={<Login />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/signup' element={<SignUp />} />
 
         <Route path='*' element={<div>존재하지 않는 페이지</div>} />
       </Routes>

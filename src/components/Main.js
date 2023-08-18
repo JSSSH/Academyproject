@@ -5,7 +5,7 @@ const Main = () => {
     <div className="Main">
       <div className="main_text">
         <div className="first_text_box">
-          <p>Monuand wants to deliver unchanging values to individual space.</p>
+          <p>Wants to deliver unchanging values to individual space.</p>
           <p>We offer a variety of items that can fill up everyday life, focusing on ceramics.</p>
         </div>
         <div className="second_text_box">
@@ -14,10 +14,10 @@ const Main = () => {
         </div>
       </div>
       <div className="main_img">
-        <img className='main_img1' src='img/m1.png'/>
-        <img className='main_img2' src='img/m2.png'/>
-        <img className='main_img3' src='img/m3.png'/>
-        <img className='main_img4' src='img/m4.png'/>
+        <img className='main_img1' alt='' src='img/m1.png'/>
+        <img className='main_img2' alt='' src='img/m2.png'/>
+        <img className='main_img3' alt='' src='img/m3.png'/>
+        <img className='main_img4' alt='' src='img/m4.png'/>
       </div>
     </div>
   );

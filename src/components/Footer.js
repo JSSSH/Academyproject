@@ -3,7 +3,7 @@ import '../css/Footer.css';
 const Footer = () => {
   return(
     <div className="Footer">
-      <p>Company Name: MONUAND</p>
+      <p>Company Name: HWAGOK</p>
       <p>Owner: 홍길동</p>
       <p>Phone Number: 070-1234-5678</p>
       <p>Email: abcdefg@gmail.com</p>
