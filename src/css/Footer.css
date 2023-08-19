@@ -4,9 +4,11 @@
 
 .Footer {
   border-top: 1px solid lightgray;
-  margin-top: 200px;
+  margin-top: 100px;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
+  font-size:13px;
   background-color: rgb(248, 237, 222);
+  color:#6c757d;
 }

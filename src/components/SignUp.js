@@ -13,7 +13,10 @@ const SignUp = () => {
         sign.registry
         ? <p>회원가입이 완료되었습니다.</p>
         : 
-          <div>
+          <div className="">
+            <div>
+              <span>회원가입</span>
+            </div>
             <input
               type="text"
               placeholder=" 사용 아이디 입력"

@@ -1,5 +1,5 @@
 .Cart {
-  margin-top: 73px;
+  margin-top: 75px;
   height: 39vh;
 }
 
@@ -12,4 +12,12 @@
 
 .Cart_table {
   --bs-table-bg: rgb(213, 214, 194);
+  text-align: center;
+}
+.Cart_table th{
+  padding: 0.7rem 0 0.7rem;
+  border-bottom: 1px solid #8e8f91c9;
+}
+.Cart_table td {
+  border-bottom: 1px solid #8e8f9187;
 }

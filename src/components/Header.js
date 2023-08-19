@@ -4,7 +4,6 @@ import '../css/Header.css';
 
 const Header = () => {
   const navigate = useNavigate();
-
   return(
     <div className="Header">
       <Navbar>

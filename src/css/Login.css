@@ -1,22 +1,20 @@
 .Login {
-  padding-top: 10%;
+  padding-top: 130px;
   text-align: center;
   align-items: center;
   display: flex;
   width: 100%;
-  height: 50vh;
   flex-direction: column;
-  height: 45.5vh;
 }
 
 .Login_btn {
-  border: 1px solid gray;
+  border: 0;
   border-radius: 5px;
   color: white;
   background: rgb(228, 141, 11);
   width: 100%;
-  height: 100%;
-  margin-top: 10px;
+  padding: 5px;
+  margin-top: 25px;
 }
 
 form {
@@ -28,22 +26,18 @@ form {
   display: flex;
   flex-direction: column;
   text-align: start;
+  margin-top: 30px;
 }
 
-#Login_id {
-  margin-bottom: 5px;
-  border: 1px solid gray;
-  background: rgb(247, 247, 247);
-}
-
-#Login_pw {
-  margin-bottom: 5px;
-  border: 1px solid gray;
+.Login_text input {
+  height:35px;
+  margin-bottom: 15px;
+  border: 1px solid #999ea3;
   background: rgb(247, 247, 247);
 }
 
 .sign {
-  margin-top: 2%;
+  margin-top: 20px;
   color: rgb(109, 108, 108);
   font-weight: bold;
   border-left: 1px solid gray;
@@ -52,5 +46,5 @@ form {
 }
 
 .Login_form {
-  width: 20%;
+  width: 280px;
 }

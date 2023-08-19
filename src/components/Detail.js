@@ -20,7 +20,7 @@ const Detail = ({ product }) => {
           <p className="Detail_price">{product[id].price}원</p>
         </div>
         <div>
-          <p>{product[id].content}</p><br />
+          <p>{product[id].content}</p>
           <p>*결정이 있는 유약으로, 유약 발색이 기물마다 상이할 수 있는 점 참고 부탁드립니다.</p><br />
           <button className="btn" onClick={() => {
             dispatch(addCart({id : Number(id), title : product[id].title, price : product[id].price, count : 1}));

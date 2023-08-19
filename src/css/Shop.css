@@ -1,5 +1,11 @@
 .Shop {
   margin-top: 57px;
+  padding:0 50px;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+  .Shop {padding: 0 30px;}
 }

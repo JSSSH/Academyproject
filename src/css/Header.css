@@ -3,7 +3,7 @@
   z-index :99;
   top: 0;left: 0;
   width: 100%;
-  border-bottom: 1px solid lightgray;
+  box-shadow: 0 2px 2px rgba(0,0,0,.1);
   background-color: rgb(248, 237, 222);
 }
 
@@ -16,10 +16,25 @@
   justify-content: space-between;
 }
 
+.navbar-expand .navbar-nav a {
+  transition: all .3s ease-in-out;
+}
+
+.navbar-expand .navbar-nav a:hover {
+  color: #f47021;
+}
+
 .nav_left {
   display: flex;
 }
 
 .nav_right {
   display: flex;
+}
+
+@media screen and (max-width: 450px) {
+  .navbar-expand .navbar-nav a {
+    padding: 5px;
+    font-size:13px;
+  }
 }

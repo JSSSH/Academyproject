@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
 .first_text_box {
-  font-weight: bold;
-  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
   margin-bottom: 50px;
+}
+.first_text_box p {
+  margin-bottom: 0.5rem;
 }
 
 .Main {
@@ -17,9 +22,32 @@
 .main_img > img {
   width: 48%;
   margin: 10px;
-  box-shadow: 5px 5px rgb(213, 214, 194)
+  box-shadow: 5px 5px 4px rgb(213, 214, 194)
 }
 
 .second_text_box {
   margin-bottom: 100px;
+  font-size: 20px;
+}
+
+/* animation */
+.ani {transition:all 0.7s ease-in-out; -webkit-transition:all 0.4s ease -in-out; opacity: 0;}
+.ani.bottom{transform:translateY(50px); -webkit-transform:translateY(50px);}
+.ani.active {
+  opacity:1;
+  transform:translate(0px,0px) ;
+  -webkit-transform:translate(0px,0px) ;
+}
+.delay1{
+  transition-delay: .1s !important;
+}
+.delay2{
+  transition-delay: .2s !important;
+}
+
+/* 반응형 */
+@media screen and (max-width: 1120px) {
+  .main_img > img {width:82%; margin:20px 0;}
+  .first_text_box {margin-bottom:30px; font-size:32px;}
+  .second_text_box {font-size: 16px;}
 }
