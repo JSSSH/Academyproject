@@ -31,18 +31,18 @@
 }
 
 /* animation */
-.ani {transition:all 0.7s ease-in-out; -webkit-transition:all 0.4s ease -in-out; opacity: 0;}
-.ani.bottom{transform:translateY(50px); -webkit-transform:translateY(50px);}
+.ani {transition:all 0.7s ease-in-out; opacity: 0;}
+.ani.bottom{transform:translateY(50px);}
 .ani.active {
   opacity:1;
   transform:translate(0px,0px) ;
   -webkit-transform:translate(0px,0px) ;
 }
 .delay1{
-  transition-delay: .1s !important;
+  transition-delay: .1s;
 }
 .delay2{
-  transition-delay: .2s !important;
+  transition-delay: .2s;
 }
 
 /* 반응형 */

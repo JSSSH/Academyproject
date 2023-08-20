@@ -1,28 +1,5 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 
-const sign = createSlice({
-  name : 'sign',
-  initialState : {
-    registry : false,
-    userId : '',
-    userPw : ''
-    
-  },
-  reducers : {
-    changeRegistry(state) {
-      state.registry = true;
-    },
-
-    setUserId(state, action) {
-      state.userId = action.payload;
-    },
-
-    setUserPw(state, action) {
-      state.userPw = action.payload;
-    }
-  }
-})
-
 const cart = createSlice({
   name : 'cart',
   initialState : [],
@@ -67,11 +44,9 @@ const cart = createSlice({
 })
 
 export const { addCart, removeCart, addCount, subCount } = cart.actions;
-export const { changeRegistry, setUserId, setUserPw } = sign.actions;
 
 export default configureStore({
   reducer : {
-    cart : cart.reducer,
-    sign : sign.reducer
+    cart : cart.reducer
   }
 })
